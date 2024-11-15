@@ -35,6 +35,7 @@ public class FastTagPaymentSystem {
 
         // Printing the MultiKeyMap transactions (sorted by user ID and transaction type)
         System.out.println("MultiKeyMap Transactions: " + multiKeyTransactions);
+
     }
 
 
