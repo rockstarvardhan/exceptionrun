@@ -10,7 +10,7 @@ public class BookingTest {
             movieBooking.displayBookingDetails();
 
 
-            
+
             MovieBooking invalidBooking = new MovieBooking("MB124", "7:30 PM", 0, -5);
         } catch (InvalidSeatsException | InvalidPriceException | BookingConflictException e) {
             System.err.println("Error: " + e.getMessage());
