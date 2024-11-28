@@ -23,4 +23,8 @@ public class Department {
     public List<Employee> getEmployees() {
         return employees;
     }
+
+    public String getDepartmentName() {
+        return getDepartmentName();
+    }
 }
